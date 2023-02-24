@@ -12,6 +12,7 @@ import { FAQ } from "../components/FAQ.jsx";
 import { Brands } from "../components/Brands.jsx";
 import { Divider } from "../components/Divider";
 import { Footer } from "../components/Footer.jsx";
+import SocialLinks from "../components/SocialLinks";
 import "../styles/Navbar.styles.css";
 import "../styles/Hero.styles.css";
 import "../styles/Utils.styles.css";
@@ -19,7 +20,8 @@ import "../styles/FeaturesDiagonal.styles.css";
 import { ScrollUpButton } from "../components/ScrollUpButton";
 ---
 
-<Layout title="MANUFIT">
+<Layout title="@themanufit Asesorías deportivas">
+  <SocialLinks />
   <Navbar client:load />
   <Hero client:load />
   <SwiperJs client:load />

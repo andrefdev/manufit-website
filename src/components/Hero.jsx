@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
 import heroimage from "../assets/images/heroimage.png";
 import dashboard from "../assets/images/dashboard.jpg";
+import background from "../assets/images/triangulo.svg";
+import resultados from "../assets/images/resultados.png";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,6 +14,11 @@ export const Hero = () => {
     <section
       className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-10 md:pt-12 lg:pt-16 text-center">
         <motion.div
@@ -23,14 +30,20 @@ export const Hero = () => {
             Manufit
           </div>
         </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 10, x: -200 }}
           animate={{ opacity: 1, y: 0, x: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className=" md:hidden">Libera</span>{" "}
-            <span className="hidden md:inline">Libera</span>
+          <div className="text-5xl sm:text-6xl lg:text-7xlxl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
+            <span className=" md:hidden shadow-lg">Libera</span>{" "}
+            <span className="hidden md:inline shadow-lg">Libera</span>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+            ></motion.div>
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -75,7 +88,7 @@ export const Hero = () => {
         >
           <div className="flex z-10 flex-col gap-2  sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <div
-              className="custom-button-colored z-10  w-80 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+              className="custom-button-colored z-10 mt-10 lg:top-0 w-40 lg:w-80 sm:w-52 h-10 lg:h-15 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
             >
               COMENZAR
@@ -90,7 +103,7 @@ export const Hero = () => {
         >
           <div className="relative w-screen flex justify-center lg:mt-20">
             <img
-              src={dashboard}
+              src={resultados}
               alt="123"
               className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl  custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />

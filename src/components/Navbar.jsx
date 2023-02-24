@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { ManufitLogo } from "../assets/logos/ManufitLogo";
-import { GithubIcon } from "../assets/icons/GithubIcon";
+import { WhatsappIcon } from "../assets/icons/WhatsappIcon";
 import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
@@ -65,7 +65,7 @@ export const Navbar = () => {
               target="_blank"
               aria-label="contactar"
             >
-              <GithubIcon />
+              <WhatsappIcon />
               Contactar
             </a>
           </div>
@@ -106,7 +106,7 @@ export const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 aria-label="sFeatures"
               >
-                Features
+                Asesorias
               </a>
               <a
                 className="navbar-link"
@@ -114,15 +114,7 @@ export const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 aria-label="Pricing"
               >
-                Pricing
-              </a>
-              <a
-                className="navbar-link"
-                href="#feedback"
-                onClick={() => setIsOpen(false)}
-                aria-label="Feedback"
-              >
-                Feedback
+                Precios
               </a>
               <a
                 className="navbar-link"
@@ -138,7 +130,7 @@ export const Navbar = () => {
                 href="https://api.whatsapp.com/send?phone=51912172568"
                 target="_blank"
               >
-                <GithubIcon />
+                <WhatsappIcon />
                 Contactar
               </a>
             </div>

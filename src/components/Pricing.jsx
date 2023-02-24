@@ -39,17 +39,21 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      S/.250
+                      $50
                     </div>
                   </div>
 
-                  <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Dicta suscipit libero aperiam facere asperiores ratione
-                    culpa recusandae deleniti unde explicabo! Debitis amet
-                    delectus deserunt fugiat est alias facilis aperiam
-                    voluptates?
-                  </p>
+                  <ul className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    <li>
+                      <p>- Consultas 24/7 via whatsapp</p>
+                      <p>
+                        - Rutina de entrenamiento completamente personalizada
+                      </p>
+                      <p>
+                        - Dieta personalizada según tus requerimientos y gustos
+                      </p>
+                    </li>
+                  </ul>
 
                   <div
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
@@ -66,15 +70,21 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      S/.400
+                      $80
                     </div>
                   </div>
-                  <p className="mt-8 mb-8 2xl:mb-12 text-gray-500 leading-loose text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Saepe porro vitae eaque officia neque repellendus nesciunt
-                    fugiat debitis nihil distinctio! Cum labore dolorem
-                    molestias porro ad aspernatur non maiores sapiente.
-                  </p>
+                  <ul className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    <li>
+                      <p>- Consultas 24/7 via whatsapp</p>
+                      <p>
+                        - Rutina de entrenamiento completamente personalizada
+                      </p>
+                      <p>
+                        - Dieta personalizada según tus requerimientos y gustos
+                      </p>
+                      <p>- Chequeos semanales</p>
+                    </li>
+                  </ul>
 
                   <div
                     className="inline-block text-center py-2 px-4 w-full custom-button-colored leading-loose transition duration-200 mt-20"
@@ -90,15 +100,21 @@ export const Pricing = () => {
                     12 semanas
                   </h4>
                   <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                    S/.600
+                    $100
                   </div>
-                  <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam accusantium odit perferendis praesentium nulla
-                    molestias esse dicta beatae laborum veritatis asperiores,
-                    labore ratione, iste dolore optio iure illum eveniet
-                    laudantium!
-                  </p>
+                  <ul className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    <li>
+                      <p>- Consultas 24/7 via whatsapp</p>
+                      <p>
+                        - Rutina de entrenamiento completamente personalizada
+                      </p>
+                      <p>
+                        - Dieta personalizada según tus requerimientos y gustos
+                      </p>
+                      <p>- Chequeos semanales</p>
+                      <p>- Entrena conmigo una vez por semana</p>
+                    </li>
+                  </ul>
 
                   <div
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"

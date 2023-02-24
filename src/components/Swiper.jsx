@@ -41,7 +41,7 @@ export const SwiperJs = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <span className="text-7xl font-bold text-customPrimary ">
+                  <span className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-customPrimary ">
                     {" "}
                     DESAFIA TUS
                   </span>
@@ -84,7 +84,7 @@ export const SwiperJs = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <span className="text-7xl font-bold text-customPrimary ">
+                  <span className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-customPrimary ">
                     {" "}
                     PONTE FUERTE
                   </span>
@@ -123,7 +123,7 @@ export const SwiperJs = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  <span className="text-7xl font-bold text-customPrimary ">
+                  <span className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-customPrimary ">
                     {" "}
                     EXPLOTA TU
                   </span>
@@ -140,7 +140,7 @@ export const SwiperJs = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.5 }}
                   >
-                    <p className="text-7xl font-bold text-customPrimary ">
+                    <p className="text-5xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-customPrimary ">
                       {" "}
                       POTENCIAL
                     </p>
